@@ -1,6 +1,3 @@
-# from datetime import datetime
-# print(datetime.now().strftime("%Y/%m/%d_%H:%M:%S"))
-
 import requests
 from bs4 import BeautifulSoup
 import csv
@@ -20,15 +17,7 @@ def fetch_user_data(username):
     return data
 
 usernames = [
-    '@varvara6827', '@evelynlee754', '@naomi.harris70', '@harpergreen921', '@liamg337', 
-    '@emilywilson_4', '@pujing66', '@alya.gavrilova', '@wangu176', '@ava_1833', 
-    '@ava.williams911', '@everly746', '@sophiabrown927431', '@avawilliams183746', '@miajones495837', 
-    '@emmasmith753619', '@helen87542', '@AbigailMoore728143', '@EmilyTaylor5629', '@juliette927461', 
-    '@ellaharris375692', '@Jackie57321', '@ava969823', '@jessica568612', '@scarlett969424247', 
-    '@ameliafaith_loved', '@lilychen0107', '@vickylee_heartfelt', '@mila_harper', '@nyla_last', 
-    '@lilyannem1023', '@avaeparker', '@calmolivia0304', '@madisontay109', '@bellaroseinbloom', 
-    '@IsabellaGAnderson', '@camilla2168', '@lilyking864215', '@celeste128143', '@janet_harris', 
-    '@taylor_wilson27', '@faye_wz8qn', '@lily_everly', '@layla_parker27'
+    '@XXXXX', '@XXXXX'
 ]
 
 all_users_data = {}
